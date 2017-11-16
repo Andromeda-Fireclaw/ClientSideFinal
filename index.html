@@ -18,9 +18,9 @@
 			
 			#search-field {
 				border-radius: 32px;
-				background: rgb(50, 50, 50);
+				background: rgba(0, 0, 0, 0.0);
 				color: rgb(160, 160, 160);
-				border: 2px solid gray;
+				border: none;
 				width: 256px;
 				height: 32px;
 				position: relative;
@@ -28,21 +28,44 @@
 				font-size: 16px;
 			}
 			
+			#search-field:focus {
+				color: white;
+			}
+			
 			#submit-button {
 				background: rgba(0, 0, 0, 0.0);
-				color: white;
+				color: rgb(160, 160, 160);
+				-webkit-transition: color 0.5s;
+				-moz-transition: color 0.5s;
+				transition: color 0.5s;
 				border: none;
 				font-size: 16px;
+			}
+			
+			#submit-button:hover {
+				color:white;
+			}
+			
+			.search-background {
+				background-color: rgb(60,60,60);
+				height: 100%;
+				display:inline-block;
 			}
 		</style>
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript">
-			
+			$(function() {
+				$("#submit-button").click(function() {
+					alert("You searched " + $("#search-field").val());
+				});
+			});
 		</script>
 	</head>
 	<body>
 		<div id="search-bar">
-			<input type="text" id="search-field" placeholder="Search Database">
+			<span class="search-background">
+				<input type="text" id="search-field" placeholder="Search Database">
+			</span>
 			<button type="submit" id="submit-button">Search</button>
 		</div>
 	</body>
