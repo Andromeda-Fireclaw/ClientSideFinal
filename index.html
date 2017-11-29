@@ -60,7 +60,7 @@
 			}
 
 			.item {
-				background-color: gray;
+				background-color: rgba(50, 50, 50, 0.7);
 				margin-top: 10px;
 				margin-bottom: 10px;
 				padding-top: 10px;
@@ -77,22 +77,31 @@
 
 			.item p {
 				margin-left: 25px;
+				color: white;
+				font-size: 18px;
 			}
 		</style>
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/divElementBuilder.js"></script>
 		<script type="text/javascript">
+		var active_queries = [];
+		
 			$(function() {
 				$("#submit-button").click(function() {
-					var item = {
-						"image" : "",
-						"info_text" : ""
-					};
-					item["image"] = prompt("Image Url");
-					item["info_text"] = prompt("Info text");
-					$("#content").append(buildDiv(item["image"], item["info_text"]));
+					var image = "";
+					var info_text = "";
+					image = prompt("Image Url");
+					info_text = prompt("Info text");
+					active_queries.push({"image" : image, "text" : info_text});
 				});
 			});
+		
+		var updateContent = function() {
+			$("#content").html("");
+			for (x of active_queries) {
+				$("#content").append(buildDiv(x["image"], x["text"]));
+			}
+		};
 		</script>
 	</head>
 	<body>
