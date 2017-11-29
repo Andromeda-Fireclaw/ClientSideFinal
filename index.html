@@ -1,6 +1,7 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=windows-1252">
 		<title>Clientside Final Project</title>
 		<style type="text/css">
 			html body {
@@ -8,14 +9,20 @@
 				padding: 0px 0px 0px 0px;
 				height: 100%;
 			}
-			
+
+			body {
+				background: url("img/background.jpg");
+				background-size: cover;
+				background-position: fixed;
+			}
+
 			#search-bar {
 				background: rgb(80, 80, 80);
 				padding-top: 10px;
 				padding-bottom: 10px;
 				padding-left: 32px;
 			}
-			
+
 			#search-field {
 				border-radius: 32px;
 				background: rgba(0, 0, 0, 0.0);
@@ -27,11 +34,11 @@
 				padding-left: 16px;
 				font-size: 16px;
 			}
-			
+
 			#search-field:focus {
 				color: white;
 			}
-			
+
 			#submit-button {
 				background: rgba(0, 0, 0, 0.0);
 				color: rgb(160, 160, 160);
@@ -41,32 +48,74 @@
 				border: none;
 				font-size: 16px;
 			}
-			
+
 			#submit-button:hover {
-				color:white;
+				color: white;
 			}
-			
+
 			.search-background {
 				background-color: rgb(60,60,60);
 				height: 100%;
-				display:inline-block;
+				display: inline-block;
+			}
+
+			.item {
+				background-color: rgba(50, 50, 50, 0.7);
+				margin-top: 10px;
+				margin-bottom: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+				border-top: 2px solid black;
+				border-bottom: 2px solid black;
+			}
+
+			.item table {
+				vertical-align: center;
+			}
+
+			.item p {
+				margin-left: 25px;
+				color: white;
+				font-size: 18px;
 			}
 		</style>
 		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/divElementBuilder.js"></script>
 		<script type="text/javascript">
+		var active_queries = [];
+		
 			$(function() {
 				$("#submit-button").click(function() {
-					alert("You searched " + $("#search-field").val());
+					var image = "";
+					var info_text = "";
+					image = prompt("Image Url");
+					info_text = prompt("Info text");
+					active_queries.push({"image" : image, "text" : info_text});
 				});
 			});
+		
+		var updateContent = function() {
+			$("#content").html("");
+			for (x of active_queries) {
+				$("#content").append(buildDiv(x["image"], x["text"]));
+			}
+		};
 		</script>
 	</head>
 	<body>
 		<div id="search-bar">
 			<span class="search-background">
-				<input type="text" id="search-field" placeholder="Search Database">
+				<input id="search-field" placeholder="Search Database" type="text">
 			</span>
-			<button type="submit" id="submit-button">Search</button>
+			<button type="submit" id="submit-button">
+				Search
+			</button>
+		</div>
+
+		<div id="content" align="center">
+			<!--Fill some of this with div elements as they're generated. -->
 		</div>
 	</body>
 </html>
