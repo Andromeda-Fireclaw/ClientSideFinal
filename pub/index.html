@@ -125,7 +125,6 @@
 				}
 			};
 			socket.on("searchReturn", function(data) {
-				active_queries = [];
 				active_queries.push(JSON.parse(data));
 				updateContent();
 			});

@@ -10,10 +10,12 @@ var socketIo = require("socket.io");
 var io = socketIo(server);
 
 var searchForItem = function(db, query, callbackFunction) {
-	db.collection("weapons").findOne({"Object Name":query}, function(err, result) {
+	db.collection("weapons").find({"Object Name":query}, function(err, cursor) {
 		if (err) throw err;
-		console.log(result);
-		callbackFunction(result);
+		cursor.forEach(function(item) {
+			//console.log(item);
+			callbackFunction(item);
+		});
 	});
 };
 
@@ -36,10 +38,11 @@ io.on("connection", function(socket) {
 		console.log(socket + " has disconnected.");
 	});
 	socket.on("search", function(query) {
+		var regex = RegExp("([a-zA-Z0-9\']*" + query + "[a-zA-Z0-9\']*)", "gi");
 		mongoClient.connect("mongodb://localhost:27017/DarkSoulsData", function(err, db) {
 			if (err) throw err;
 			console.log("Connected to Mongo.");
-			searchForItem (db, query, function(answer) {
+			searchForItem (db, regex, function(answer) {
 				console.log(answer);
 				socket.emit("searchReturn", JSON.stringify(answer));
 			});
