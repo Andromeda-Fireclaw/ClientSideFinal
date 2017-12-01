@@ -83,22 +83,25 @@
 		</style>
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/divElementBuilder.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
 		<script type="text/javascript">
-		var active_queries = [];
-		
+			var socket = io();
+			var elements = [];
+			socket.on("hello", function(data) {
+				alert(data);
+			});
+			socket.on("searchReturn", function(data) {
+				alert(data);
+			});
 			$(function() {
 				$("#submit-button").click(function() {
-					/*var image = "";
-					var info_text = "";
-					image = prompt("Image Url");
-					info_text = prompt("Info text");
-					active_queries.push({"image" : image, "text" : info_text});*/
+					socket.emit("search", $("#search-field").val());
 				});
 			});
 		
 		var updateContent = function() {
 			$("#content").html("");
-			for (x of active_queries) {
+			for (x of elements) {
 				$("#content").append(buildDiv(x["image"], x["text"]));
 			}
 		};
