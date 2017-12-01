@@ -70,6 +70,10 @@
 				border-top: 2px solid black;
 				border-bottom: 2px solid black;
 			}
+			
+			.item h2 {
+				color: white;
+			}
 
 			.item table {
 				vertical-align: center;
@@ -86,12 +90,13 @@
 		<script src="/socket.io/socket.io.js"></script>
 		<script type="text/javascript">
 			var socket = io();
-			var elements = [];
+			var active_queries = [];
 			socket.on("hello", function(data) {
 				alert(data);
 			});
 			socket.on("searchReturn", function(data) {
-				alert(data);
+				active_queries.push(JSON.parse(data));
+				updateContent();
 			});
 			$(function() {
 				$("#submit-button").click(function() {
@@ -101,8 +106,8 @@
 		
 		var updateContent = function() {
 			$("#content").html("");
-			for (x of elements) {
-				$("#content").append(buildDiv(x["image"], x["text"]));
+			for (x of active_queries) {
+				$("#content").append(buildDiv("/img/weapons/longsword-icon.png", x["Object Name"], x["Location"]));
 			}
 		};
 		</script>

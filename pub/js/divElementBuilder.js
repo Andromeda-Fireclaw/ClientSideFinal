@@ -11,7 +11,7 @@ var buildParagraph = function(text) {
 };
 
 var buildInfoTable = function(image_path, item_name, info_text) {
-	var html_text = "";
+  var html_text = "";
   var split_info = info_text.split(".");
   html_text = html_text + "<table><tr><td><img src=\"" + image_path + "\" width=\"128\" height=\"200\"/>";
   html_text = html_text + "<td>";
