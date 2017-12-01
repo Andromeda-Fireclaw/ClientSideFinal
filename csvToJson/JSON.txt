@@ -1,0 +1,1334 @@
+[
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Parrying Dagger",
+   "Location": "Sold by Unbreakable Patches"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Harpe",
+   "Location": "Dropped by the red-eyed enemies at Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Dagger",
+   "Location": "Sold by the Shrine Handmaid/ Dropped by undeads in High Wall of Lothric"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Brigand Twindaggers",
+   "Location": "Looted at Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Scholar's Candlestick",
+   "Location": "Drops from Wax Scholars at Grand Archives"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Bandit's Knife",
+   "Location": "Starting equipment: Thief; Sold by Shrine Handmaid after giving Greirat's Ashes; Sold by Greirat of the Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Handmaid's Dagger",
+   "Location": "Drops from Handmaids in the Profaned Capital"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Mail Breaker",
+   "Location": "Sorcerer starting weapon; Looted at High Wall of Lothric"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Corvian Greatknife",
+   "Location": "Dropped by dagger-wieldind Corvians at Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Tailbone Short Sword",
+   "Location": "Dropped by enemies at Irythyll Dungeon"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Rotten Ghru Dagger",
+   "Location": "Dropped by Ghru at Farron Keep"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Murky Hand Scythe",
+   "Location": "Found on a corpse in The Dreg Heap"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Daggers",
+   "Object Name": "Aquamarine Dagger",
+   "Location": "From The Dreg Heap bonfire, drop down and head across the bridge and left up the stairs."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Long Sword",
+   "Location": "Knight starting equipment.; Dropped by hollows at High Wall of Lothric; Sold by Greirat"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Sunlight Straight Sword",
+   "Location": "Dropped by Mimic at Lothric Castle"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Broken Straight Sword",
+   "Location": "Looted at Cemetery of Ash "
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Broadsword",
+   "Location": "Looted at High Wall of Lothric"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Astora Straight Sword",
+   "Location": "Looted at High Wall of Lothric"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Lothric Knight Sword",
+   "Location": "Sold by Greirat; Dropped by Lothric Knights"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Irithyll Straight Sword",
+   "Location": "Dropped by Outrider Knight at Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Shortsword",
+   "Location": "Sold by Shrine Handmaid"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Cleric's Candlestick",
+   "Location": "Soul Transposition using Soul of the Deacons of the Deep"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Barbed Straight Sword",
+   "Location": "Dropped by Longfinger Kirk at Cathedral of the Deep"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Dark Sword",
+   "Location": "Dropped by Darkwraiths"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Gotthard Twinswords",
+   "Location": "Looted at Grand Archives"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Lothric's Holy Sword",
+   "Location": "Soul Transposition using Soul of the Twin Princes"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Anri's Straight Sword",
+   "Location": "Completing Anri of Astora's questline, or just killing him/her."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Morion Blade",
+   "Location": "Give Orbeck's Ashes to Yuria of Londor"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Valorheart",
+   "Location": "Ashes of Ariandel DLC: Defeat Champion's Gravetender & Gravetender Greatwolf"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Straight Swords",
+   "Object Name": "Ringed Knight Straight Sword",
+   "Location": "From the Ringed City Streets bonfire, head out into the swamp and head straight, past several Locust Men, on a corpse."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Claymore",
+   "Location": "In High Wall of Lothric. Beneath the living dragon. Dropped by enemies wielding it in Irithyll"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Bastard Sword",
+   "Location": "Sold by Greirat of the Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Hollowslayer Greatsword",
+   "Location": "Soul Transposition using Soul of Rotted Greatwood for 1,000 Souls"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Executioner's Greatsword",
+   "Location": "Looted at Cathedral of the Deep"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Black Knight Sword",
+   "Location": "Looted at Smoldering Lake"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Flamberge",
+   "Location": " Dropped by the thieves wielding the sword at Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Wolf Knight's Greatsword",
+   "Location": "Soul Transposition using Soul of the Blood of the Wolf"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Wolnir's Holy Sword",
+   "Location": "Soul Transposition using Soul of High Lord Wolnir"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Greatsword of Judgement",
+   "Location": "Soul Transposition using  Soul of Pontiff Sulyvahn"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Moonlight Greatsword",
+   "Location": "Soul Transposition using Soul of Consumed Oceiros"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Storm Ruler",
+   "Location": "Found in the boss room for Yhorm the Giant/ Completing Siegward of Catarina's questline"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Firelink Greatsword",
+   "Location": "Soul Transposition using Soul of the Lords"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Twin Princes' Greatsword",
+   "Location": "Trading Lothric's Holy Sword and Lorian's Greatsword at Ludleth of Courland"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Drakeblood Greatsword",
+   "Location": "Dropped by knight NPC in Archdragon Peak"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Onyx Blade",
+   "Location": "Ashes of Ariandel DLC: Dropped by Sir Vilhelm"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatswords",
+   "Object Name": "Gael's Greatsword",
+   "Location": "Obtained via Soul Transposition from the Soul of Slave Knight Gael"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Zweihander",
+   "Location": "Sold by Greirat of the Undead Settlement for 6000 souls."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Greatsword",
+   "Location": "Farron Keep, on one of the broken bridges."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Farron Greatsword",
+   "Location": "Soul Transposition using Soul of the Blood of the Wolf"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Fume Ultra Greatsword",
+   "Location": "In Smouldering Lake: Drop from Knight Slayer Tsorig"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Profaned Greatsword",
+   "Location": "Soul Transposition using Soul of Pontiff Sulyvahn"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Black Knight Greatsword",
+   "Location": "Dropped by Black Knights wielding this weapon"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Cathedral Knight Greatsword",
+   "Location": "Dropped by Cathedral Knights"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Lorian's Greatsword",
+   "Location": "Soul Transposition using Soul of the Twin Princes"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Lothric Knight Greatsword",
+   "Location": "Dropped from Lothric Knights wielding this weapon.; Can be purchased from Greirat of the Undead Settlement or Shrine Handmaid if you give her Greirat's Ashes"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Astora Greatsword",
+   "Location": "Looted from a corpse at the graveyard near the Cleansing Chapel at Cathedral of the Deep"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Ultra Greatswords",
+   "Object Name": "Ringed Knight Paired Greatswords",
+   "Location": "Drops from Ringed Knight carrying them just before the cathedral, right near the altar where you rank up the Spears of the Church."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Katanas",
+   "Object Name": "Darkdrift",
+   "Location": "Dropped by Yuria of Londor at Firelink Shrine"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Katanas",
+   "Object Name": "Washing Pole",
+   "Location": "Sold by the Shrine Handmaid after giving her the Easterner's Ashes for 7,500 souls"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Katanas",
+   "Object Name": "Uchigatana",
+   "Location": "Dropped by Sword Master Saber just outside Firelink Shrine"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Katanas",
+   "Object Name": "Chaos Blade",
+   "Location": "Outside of the Untended Graves, Firelink Shrine"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Katanas",
+   "Object Name": "Black Blade",
+   "Location": "Looted from a Mimic  near the Flame Demon on the way to Smouldering Lake"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Katanas",
+   "Object Name": "Onikiri and Ubadachi",
+   "Location": "Dropped by Black Hand Kamui at the top floor the Grand Archives"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Katanas",
+   "Object Name": "Bloodlust",
+   "Location": "Rank 1 reward in the Mound-Makers covenant"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Katanas",
+   "Object Name": "Frayed Blade",
+   "Location": "Transposed with Soul of Darkeater Midir"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Scimitar",
+   "Location": "Sold by Shrine Handmaid"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Pontiff Knight Curved Sword",
+   "Location": "Sold by Greirat/ Dropped by Pontiff Knights at Irythill of the Boral Valley"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Falchion",
+   "Location": "Dropped by the Skeletons wielding it at Catacombs of Carthus"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Sellsword Twinblades",
+   "Location": "Mercenary starting weapons/ Looted at Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Warden Twinblades",
+   "Location": " Dropped by Grave Wardens at Cathedral of the Deep and Untended Graves"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Shotel",
+   "Location": "Sold by Unbreakable Patches"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Dancer's Enchanted Swords",
+   "Location": "Soul Transposition using Soul of the Dancer"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Storm Curved Sword",
+   "Location": "Soul Transposition using Soul of the Nameless King"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Carthus Curved Sword",
+   "Location": "Dropped by the Skeletons wielding it at Catacombs of Carthus"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Carthus Shotel",
+   "Location": " Dropped by Skeletons wielding them at Catacombs of Carthus"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Rotten Ghru Curved Sword",
+   "Location": "Dropped by Ghrus at Farron Keep"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Painting Guardian's Curved Sword",
+   "Location": " Looted at Anor Londo"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Crescent Moon Sword",
+   "Location": " Dropped by Ringfinger Leonhard"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Follower Sabre",
+   "Location": "Ashes of Ariandel DLC: Halfway down the path of roots to the depths of the Painted World."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Swords",
+   "Object Name": "Demon's Scar",
+   "Location": "Obtained via Soul Transposition with the Soul of the Demon Prince"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Greatswords",
+   "Object Name": "Murakumo",
+   "Location": "Dropped by Alva, Seeker of the Spurned at the entrance of Irithyll Dungeon"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Greatswords",
+   "Object Name": "Carthus Curved Greatsword",
+   "Location": "Dropped by Skeletons wielding it at Catacombs of Carthus"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Greatswords",
+   "Object Name": "Exile Greatsword",
+   "Location": "Dropped by Exiled Warriors at Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Greatswords",
+   "Object Name": "Old Wolf Curved Sword",
+   "Location": "Rank 1 of Watchdogs of Farron"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Curved Greatswords",
+   "Object Name": "Harald Curved Greatsword",
+   "Location": "The Ringed City, On the left end of the swamp after the Earthen Peak bonfire, past the flying hollow."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Thrusting Swords",
+   "Object Name": "Estoc",
+   "Location": "Starting equipment for the Assassin; Sold by Greirat  after his first looting trip"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Thrusting Swords",
+   "Object Name": "Rapier",
+   "Location": "Looted from some remains in the High Wall of Lothric, by the left-side wall of the area where you fight the Winged Knight"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Thrusting Swords",
+   "Object Name": "Crystal Sage's Rapier",
+   "Location": "Soul Transposition using Soul of a Crystal Sage"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Thrusting Swords",
+   "Object Name": "Irithyll Rapier",
+   "Location": "Dropped by Outride Knight in Lothric Castle"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Thrusting Swords",
+   "Object Name": "Ricard's Rapier",
+   "Location": "Dropped from a hostile NPC in Archdragon Peak"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Thrusting Swords",
+   "Object Name": "Crow Quills",
+   "Location": "Ashes of Ariandel DLC: Mound in the center of pool, must be leapt to from a house ledge."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Battle Axe",
+   "Location": "Northen Warrior starting weapon/Looted from a mimic at High Wall of Lothric(Deep Infused)."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Hand Axe",
+   "Location": "Pyromancer starting weapon/ Looted at Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Thrall Axe",
+   "Location": "Dropped from Thralls"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Dragonslayer's Axe",
+   "Location": "Dropped by Creighton the Wanderer"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Butcher Knife",
+   "Location": "Dropped by enemy wielding it at Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Brigand Axe",
+   "Location": "Looted at Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Winged Knight Twinaxes",
+   "Location": "Dropped by Golden Winged Knights"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Eleonora",
+   "Location": "Dropped by hand-like enemy at Profaned Capital"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Man Serpent Hatchet",
+   "Location": "Dropped by Man Serpents"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Axes",
+   "Object Name": "Millwood Battle Axe",
+   "Location": "Ashes of Ariandel DLC: Looted from a corpse in the tower."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greataxes",
+   "Object Name": "Greataxe",
+   "Location": "Watchdog of Farron covenant builiding roof/drop from axe hollow"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greataxes",
+   "Object Name": "Demon's Greataxe",
+   "Location": "Transpose Soul of a Demon"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greataxes",
+   "Object Name": "Great Machete ",
+   "Location": "Drops by the Saw/Pot wielding enemies at Undead Settlement and Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greataxes",
+   "Object Name": "Yhorm's Great Machete",
+   "Location": "Transpose Soul of Yhorm the Giant"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greataxes",
+   "Object Name": "Dragonslayer Greataxe",
+   "Location": "Transpose Soul of Dragonslayer Armour"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greataxes",
+   "Object Name": "Black Knight Greataxe",
+   "Location": "Dropped by Black Knights wielding the weapon"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greataxes",
+   "Object Name": "Earth Seeker",
+   "Location": "Ashes of Ariandel DLC: Bottom of ravine in snowy mountain area"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Hammers",
+   "Object Name": "Mace",
+   "Location": "Cleric starting weapon/ Sold by Greirat"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Hammers",
+   "Object Name": "Club",
+   "Location": "Deprived starting weapon/ Dropped by hollows and also looted at High Wall of Lothric"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Hammers",
+   "Object Name": "Morning Star",
+   "Location": "Sold by Shrine Handmaid after you give her the Paladin Ashes"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Hammers",
+   "Object Name": "Reinforced Club",
+   "Location": "Looted at Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Hammers",
+   "Object Name": "Drang Hammers",
+   "Location": "Looted at Cathedral of the Deep"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Hammers",
+   "Object Name": "Heysel Pick",
+   "Location": "Dropped by Yellowfiger Heysel at Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Hammers",
+   "Object Name": "Blacksmith Hammer",
+   "Location": "Looted at Untended Graves"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Hammers",
+   "Object Name": "Warpick",
+   "Location": "Sold by Greirat after he returns from his first quest"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Large Club",
+   "Location": "Looted from a corpse near the place you and Siegward of Catarina defeated the Fire Demon in Undead Settlement."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Gargoyle Flame Hammer",
+   "Location": "Dropped by Rock Gargoyles using this weapon in Profaned Capital or Grand Archives."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Great Club",
+   "Location": "Drops from Watchdog of Farron NPC outside Farron Keep."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Vordt's Great Hammer",
+   "Location": "Transposed from Soul of Boreal Valley Vordt."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Great Mace",
+   "Location": "Dropped from Cathedral Knights wielding this weapon."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Morne's Great Hammer",
+   "Location": "Dropped by Eygon of Carim if killed."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Great Wooden Hammer",
+   "Location": "Dropped by Villagers at the Undead Settlement wielding this item"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Smough's Great Hammer",
+   "Location": "Found in a chest in Irithyll of the Boreal Valley in the building with the paintings and Silver Knights, on the second floor."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Old King's Great Hammer",
+   "Location": "Created with the Soul of the Old Demon King"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Pickaxe",
+   "Location": "Located on a corpse in Irithyll Dungeon (near the giant)."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Dragon Tooth",
+   "Location": "Dropped by Havel in Archdragon Peak"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Spiked Mace",
+   "Location": "Dropped by Evangelists at Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Quakestone Hammer",
+   "Location": "Ashes of Ariandel DLC: Snowy Mountain, at the top of a pass, guarded by a red eyed Millwood Knight."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Great Hammers",
+   "Object Name": "Ledo's Great Hammer",
+   "Location": "Dropped by Silver Knight Ledo when he invades you in The Ringed City (Location)"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Fist & Claws",
+   "Object Name": "Caestus",
+   "Location": "Looted from a corpse in the sewers of Undead Settlement, right before the Giant Undead Rat."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Fist & Claws",
+   "Object Name": "Demon's Fist",
+   "Location": "Transposable from Soul of a Demon."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Fist & Claws",
+   "Object Name": "Dark Hand",
+   "Location": "Sold by Yuria of Londor for 12,000 souls."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Fist & Claws",
+   "Object Name": "Claw",
+   "Location": "Picked up from beneath the central platform patrolled by Dark Masses in Consumed King's Garden"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Fist & Claws",
+   "Object Name": "Manikin Claws",
+   "Location": "Dropped by Dark Spirit of Londor that invades you in Irithyll of The Boreal Valley right after the Silver Knights room"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Fist & Claws",
+   "Object Name": "Crow Talons",
+   "Location": "Ashes of Ariandel DLC: Rooftop in the Corvian Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Spear",
+   "Location": "Starting equipment for the Herald class.; Sold by Greirat at Firelink Shrine"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Tailbone Spear",
+   "Location": "Drops from Wretches in Irithyll Dungeon that wield this weapon."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Winged Spear",
+   "Location": "Unbreakable Patches: 1500 souls"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Drang Twinspears",
+   "Location": "Found at Irithyll of the Boreal Valley."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Arstor's Spear",
+   "Location": "Soul Transposition from Soul of the Rotted Greatwood for 1,000 souls."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Four-Pronged Plow",
+   "Location": "Dropped by undead wielding this weapon in Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Saint Bident",
+   "Location": "Found at Cathedral of the Deep: next to one of the chained-Giants, there is a big blue door that leads to the area where this if found."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Rotten Ghru Spear",
+   "Location": "Dropped by Ghru Grunts wielding this weapon in the swamp area in Farron Keep and in the labyrinth area of Smouldering Lake."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Partizan",
+   "Location": "Looted from a hanging corpse near where Cornyx is being held, above the Third bonfire at the Undead Settlement."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Yorshka's Spear",
+   "Location": "Located in a chest in a dark room not far from the Church of Yorshka bonfire in Irithyll of the Boreal Valley."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Gargoyle Flame Spear",
+   "Location": "Dropped by Stone Gargoyles wielding this weapon in the Profaned Capital & Grand Archives."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Dragonslayer Swordspear",
+   "Location": "Soul Transposition of the Soul of the Nameless King."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Dragonslayer Spear",
+   "Location": "Looted from a spot in the area after the Nameless King"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Golden Ritual Spear",
+   "Location": "Dropped from a Mimic just above Pontiff Sullyvahn bonfire."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Soldering Iron",
+   "Location": "Dropped from a Mimic just above Pontiff Sullyvahn bonfire."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Lothric Knight Long Spear",
+   "Location": "Dropped from Lothric Knights wielding them between the Vordt of the Boreal Valley and Dancer of the Boreal Valley bossfight rooms."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Greatlance",
+   "Location": "Looted off of the dead body after the red eyed Lothric Knight near the Dragon Barracks bonfire (Before the bridge)"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Pike",
+   "Location": "Rare drop from the branch-wielding hollows after the Crucifixion Woods bonfire at the Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Follower Javelin",
+   "Location": "Ashes of Ariandel DLC: From the Snowfiled bonfire, up the hill to the right guarded by Farron Followers"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Ringed Knight Spear",
+   "Location": "The Ringed City: Down the steps from Shira and to the right before the swamp. On a corpse behind the Ringed Knight."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Spears & Pikes",
+   "Object Name": "Lothric War Banner",
+   "Location": "A hidden area just shortly after you meet Lapp for the first time in The Dreg Heap"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Halberd",
+   "Location": "Sold by the Shrine Handmaid at Firelink Shrine for 1500 souls.; Dropped by Hollow Soldiers with Halberds in High Wall of Lothric"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Lucerne",
+   "Location": "Looted from a corpse to the right of the entrance to Emma at her church in High Wall of Lothric."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Winged Knight Halberd",
+   "Location": "Dropped by Winged Knights wielding this weapon (rare drop)"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Red Hilted Halberd",
+   "Location": "In the sewers of Undead Settlement, next to where you find the statue of Velka."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Black Knight Glaive",
+   "Location": "Found in the boss arena for Champion Gundyr"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Gundyr's Halberd",
+   "Location": "Craft via Soul Transposition from Soul of Champion Gundyr"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Immolation Tinder",
+   "Location": "Drops from Fire Witches in Irithyll of the Boreal Valley."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Crescent Axe",
+   "Location": "Purchased from Shrine Handmaid after giving her Paladin's Ashes."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Glaive",
+   "Location": "Buy for 3500 souls from Greirat"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Splitleaf Greatsword",
+   "Location": "Can be bought from the Stone-humped Hag at The Dreg Heap"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Halberds",
+   "Object Name": "Crucifix of the Mad King",
+   "Location": "Drops from Shira when you face her in the final area of The Ringed City"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Reapers",
+   "Object Name": "Great Scythe",
+   "Location": "Looted from Undead Settlement in a destroyed building near the rain of giant arrows and the White Birch Tree."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Reapers",
+   "Object Name": "Pontiff Knight Great Scythe",
+   "Location": "Dropped by the Pontiff Knight wielding this weapon in front of the Pontiff Sulyvahn boss room."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Reapers",
+   "Object Name": "Great Corvian Scythe",
+   "Location": "Dropped by Corvian enemies wielding it in Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Reapers",
+   "Object Name": "Friede's Great Scythe",
+   "Location": "Obtained from the Soul of Sister Friede by using Soul Transposition"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Whips",
+   "Object Name": "Whip",
+   "Location": "Looted from a corpse in the Undead Settlement."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Whips",
+   "Object Name": "Notched Whip",
+   "Location": "Beginning of the Cathedral of the Deep. First bonfire."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Whips",
+   "Object Name": "Witch's Locks",
+   "Location": "In a chest in dark room in Floor 1 of Grand Archives. Pull the lever."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Whips",
+   "Object Name": "Spotted Whip",
+   "Location": "Located where you first found Cornyx in Undead Settlement after summoning White Phantom Great Swamp Cuculus and defeating Old Demon King"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Whips",
+   "Object Name": "Rose of Ariandel",
+   "Location": "Ashes of Ariandel DLC: Soul Transposition of Soul of Sister Friede"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Bows",
+   "Object Name": "Short Bow",
+   "Location": "Starting Equipment: Thief; Buy: Merchant Greirat's expanded inventory"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Bows",
+   "Object Name": "Longbow",
+   "Location": "High Wall of Lothric"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Bows",
+   "Object Name": "Black Bow of Pharis",
+   "Location": "Dropped by mini Cleric Beast-like enemy in Farron Keep. There are 3 around a soul to the left of the second bonfire in this area. One of them drops it"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Bows",
+   "Object Name": "Dragonrider Bow",
+   "Location": "Smouldering Lake"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Bows",
+   "Object Name": "Composite Bow",
+   "Location": "Bought from the Shrine Handmaid for 3,500 souls after giving her the Dreamchaser's Ashes."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Bows",
+   "Object Name": "Darkmoon Longbow",
+   "Location": "Soul Transposition using Soul of Aldrich"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Bows",
+   "Object Name": "White Birch Bow",
+   "Location": "The Ringed City - Found on the swamp's cliffside past the Inner Wall area."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatbows",
+   "Object Name": "Dragonslayer Greatbow",
+   "Location": "Anor Londo"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatbows",
+   "Object Name": "Onislayer Greatbow",
+   "Location": "Profaned Capital"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Greatbows",
+   "Object Name": "Millwood Greatbow",
+   "Location": "Ashes of Ariandel DLC: Up the path near the Millwood Ruins, guarded by wolves and Knights."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Crossbows",
+   "Object Name": "Light Crossbow",
+   "Location": "Dropped by the Undeads with Crossbows at the High Wall of Lothric.; Sold by Greirat of the Undead Settlement."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Crossbows",
+   "Object Name": "Knight's Crossbow",
+   "Location": "Lothric knight drop"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Crossbows",
+   "Object Name": "Arbalest",
+   "Location": "Cathedral of the Deep"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Crossbows",
+   "Object Name": "Sniper Crossbow",
+   "Location": "Looted from a corpse at the top of a gatehouse just before the dragons in Lothric Castle"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Crossbows",
+   "Object Name": "Avelyn",
+   "Location": "Grand Archives"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Crossbows",
+   "Object Name": "Heavy Crossbow",
+   "Location": "Dropped by the crossbow-wielding knight in Cathedral of the Deep"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Crossbows",
+   "Object Name": "Repeating Crossbow",
+   "Location": "Transposed with Soul of Slave Knight Gael"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Sorcerer's Staff",
+   "Location": "Shrine Handmaid"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Court Sorcerer's Staff",
+   "Location": "Dropped by a mimic located in the Profaned Capital. The mimic is on the second floor of the church looking building that is full of hand beasts."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Heretic's Staff",
+   "Location": "Road of Sacrifices 3rd bonfire, found in the 1st room of the ruins"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Witch Tree Branch",
+   "Location": "Looted from corpse behind a locked gate in Irithyll of the Boreal Valley. Must destroy an illusionary railing in order to acquire it."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Sage's Crystal Staff ",
+   "Location": "Dropped by the hostile mage NPC in Grand Archives."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Izalith Staff",
+   "Location": "Smouldering Lake"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Storyteller's Staff",
+   "Location": "Dropped by the corvian mage at Road of Sacrifices"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Archdeacon Great Staff",
+   "Location": "Reach Rank 2 in Aldrich Faithful Covenant"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Man-Grub's Staff",
+   "Location": "Reach rank 2 in Rosaria's Fingers."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Mendicant's Staff",
+   "Location": "Drops from Summoners in Archdragon Peak."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Preacher's Right Arm",
+   "Location": "Swamp in The Ringed City (Location), corpse hanging on structure in the middle"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Staves",
+   "Object Name": "Murky Longstaff",
+   "Location": "The Dreg Heap, past the overgrown Lothric Knights and up the hill into a buidling, on a corpse"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Flames",
+   "Object Name": "Pyromancy Flame",
+   "Location": "Cornyx of the Great Swamp; Starting gear for the Pyromancer Class"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Flames",
+   "Object Name": "Pyromancer's Parting Flame",
+   "Location": "Ashes of Ariandel DLC: At the bottom of the Path of Roots behind the illusory wall."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Flames",
+   "Object Name": "Demon's Scar",
+   "Location": "The Ringed CIty DLC: Transposable from the Soul of the Demon Prince"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Talismans",
+   "Object Name": "Talisman",
+   "Location": "Sold by Shrine Handmaid for 500 souls."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Talismans",
+   "Object Name": "Saint's Talisman",
+   "Location": "Undead Settlement"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Talismans",
+   "Object Name": "Sunlight Talisman",
+   "Location": "Farron Keep, in the swamp near the Estus Soup."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Talismans",
+   "Object Name": "White Hair Talisman",
+   "Location": "Smouldering Lake: Lava pit."
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Talismans",
+   "Object Name": "Sunless Talisman",
+   "Location": "Reward for completing the questline of Sirris of the Sunless Realms"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Talismans",
+   "Object Name": "Canvas Talisman",
+   "Location": "Purchased from Shrine Handmaid for 3,000 souls after giving her Paladin's Ashes"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Sacred Chimes",
+   "Object Name": "Priest's Chime",
+   "Location": "Sold by Greirat for 4000 souls after he is sent scavenging"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Sacred Chimes",
+   "Object Name": "Cleric's Sacred Chime",
+   "Location": "Dropped by Undead Cleric at Cemetery of Ash"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Sacred Chimes",
+   "Object Name": "Caitha's Chime ",
+   "Location": "Lothric Castle"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Sacred Chimes",
+   "Object Name": "Saint-tree Bellvine",
+   "Location": "Looted from a corpse  near the first short cut at Cathedral of the Deep next to the water and the crawling maggot-enemies"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Sacred Chimes",
+   "Object Name": "Crystal Chime",
+   "Location": "Found in the Grand Archives"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Sacred Chimes",
+   "Object Name": "Yorshka's Chime",
+   "Location": "Drops from Company Captain Yorshka if killed"
+ },
+ {
+   "Category": "Weapon",
+   "Sub Category": "Sacred Chimes",
+   "Object Name": "Sacred Chime of Filianore",
+   "Location": "Given by Shira in The Ringed City when you first speak to her while she is behind the doors"
+ }
+]
