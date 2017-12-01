@@ -11,9 +11,17 @@
 			}
 
 			body {
+				background-color: black;
+			}
+			
+			#background {
 				background: url("img/background.jpg");
 				background-size: cover;
-				background-position: fixed;
+				width:100%;
+				height: 1000px;
+				position: fixed;
+				z-index: -1;
+				background-repeat: no-repeat;
 			}
 
 			#search-bar {
@@ -50,6 +58,20 @@
 			}
 
 			#submit-button:hover {
+				color: white;
+			}
+			
+			#home-button {
+				background: rgba(0, 0, 0, 0.0);
+				color: rgb(160, 160, 160);
+				-webkit-transition: color 0.5s;
+				-moz-transition: color 0.5s;
+				transition: color 0.5s;
+				border: none;
+				font-size: 16px;
+			}
+
+			#home-button:hover {
 				color: white;
 			}
 
@@ -91,25 +113,29 @@
 		<script type="text/javascript">
 			var socket = io();
 			var active_queries = [];
-			socket.on("hello", function(data) {
-				alert(data);
-			});
+			var updateContent = function() {
+				$("#content").html("");
+				for (x of active_queries) {
+					if (!x) continue;
+					$("#content").append(buildDiv("/img/weapons/longsword-icon.png", x["Object Name"], x["Location"]));
+				}
+			};
 			socket.on("searchReturn", function(data) {
+				active_queries.push(JSON.parse(data));
+				updateContent();
+			});
+			socket.on("listReturn", function(data) {
 				active_queries.push(JSON.parse(data));
 				updateContent();
 			});
 			$(function() {
 				$("#submit-button").click(function() {
-					socket.emit("search", $("#search-field").val());
+					socket.emit("list", $("#search-field").val());
+				});
+				$("#home-button").click(function() {
+					location.reload();
 				});
 			});
-		
-		var updateContent = function() {
-			$("#content").html("");
-			for (x of active_queries) {
-				$("#content").append(buildDiv("/img/weapons/longsword-icon.png", x["Object Name"], x["Location"]));
-			}
-		};
 		</script>
 	</head>
 	<body>
@@ -120,10 +146,130 @@
 			<button type="submit" id="submit-button">
 				Search
 			</button>
+			<button type="home" id="home-button">
+				Home
+			</button>
 		</div>
-
+		<div id="background"> </div>
 		<div id="content" align="center">
 			<!--Fill some of this with div elements as they're generated. -->
+			<div class="item" id="sword-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/longsword-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Straight Swords</h2>
+							<p>List all straight sword type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="staff-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/sorcerers_staff-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Staves</h2>
+							<p>List all staff type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="axe-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/battle_axe-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Axes</h2>
+							<p>List all axe type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="spear-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/spear-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Spears</h2>
+							<p>List all spear type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="chime-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/crystal_chime-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Catalysts</h2>
+							<p>List all catalyst type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="greatsword-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/claymore-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Greatswords</h2>
+							<p>List all greatsword type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="ultra-greatsword-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/fume_ultra_greatsword-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Ultra Greatswords</h2>
+							<p>List all ultra greatsword type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="curved-sword-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/falchion-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Curved Swords</h2>
+							<p>List all curved sword type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="curved-greatsword-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/carthus_curved_greatsword-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Curved Greatswords</h2>
+							<p>List all curved greatsword type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 	</body>
 </html>

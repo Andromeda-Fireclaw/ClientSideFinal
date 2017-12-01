@@ -17,12 +17,21 @@ var searchForItem = function(db, query, callbackFunction) {
 	});
 };
 
+var listCategory = function(db, query, callbackFunction) {
+	db.collection("weapons").find({"Sub Category":query}, function(err, cursor) {
+		var result = [];
+		cursor.forEach(function(item) {
+			//console.log(item);
+			callbackFunction(item);
+		});
+	});
+};
+
 app.use(express.static("pub"));
 
 io.on("connection", function(socket) {
 	console.log("connection made from " + socket);
 	//I'm going to leave this in here just in case something mysterious happens.
-	//socket.emit("hello", "Hello user!");
 	socket.on("disconnect", function() {
 		console.log(socket + " has disconnected.");
 	});
@@ -35,6 +44,16 @@ io.on("connection", function(socket) {
 				socket.emit("searchReturn", JSON.stringify(answer));
 			});
 		});	
+	});
+	socket.on("list", function(query) {
+		mongoClient.connect("mongodb://localhost:27017/DarkSoulsData", function(err, db) {
+			if (err) throw err;
+			console.log("Connected to Mongo.");
+			listCategory (db, query, function(answer) {
+				console.log(answer);
+				socket.emit("listReturn", JSON.stringify(answer));
+			});
+		});
 	});
 });
 
