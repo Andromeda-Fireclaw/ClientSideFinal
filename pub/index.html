@@ -26,9 +26,13 @@
 
 			#search-bar {
 				background: rgb(80, 80, 80);
+				top:-2px;
 				padding-top: 10px;
 				padding-bottom: 10px;
 				padding-left: 32px;
+				position:fixed;
+				width: 100%;
+				display: block;
 			}
 
 			#search-field {
@@ -121,6 +125,7 @@
 				}
 			};
 			socket.on("searchReturn", function(data) {
+				active_queries = [];
 				active_queries.push(JSON.parse(data));
 				updateContent();
 			});
@@ -130,10 +135,52 @@
 			});
 			$(function() {
 				$("#submit-button").click(function() {
-					socket.emit("list", $("#search-field").val());
+					socket.emit("search", $("#search-field").val());
 				});
 				$("#home-button").click(function() {
 					location.reload();
+				});
+				$("#sword-button").click(function() {
+					socket.emit("list", "Straight Swords");
+				});
+				$("#staff-button").click(function() {
+					socket.emit("list", "Staves");
+				});
+				$("#axe-button").click(function() {
+					socket.emit("list", "Axes");
+				});
+				$("#spear-button").click(function() {
+					socket.emit("list", "Spears & Pikes");
+				});
+				$("#chime-button").click(function() {
+					socket.emit("list", "Sacred Chimes");
+				});
+				$("#greatsword-button").click(function() {
+					socket.emit("list", "Greatswords");
+				});
+				$("#ultra-greatsword-button").click(function() {
+					socket.emit("list", "Ultra Greatswords");
+				});
+				$("#bow-button").click(function() {
+					socket.emit("list", "Bows");
+				});
+				$("#crossbow-button").click(function() {
+					socket.emit("list", "Crossbows");
+				});
+				$("#curved-sword-button").click(function() {
+					socket.emit("list", "Curved Swords");
+				});
+				$("#curved-greatsword-button").click(function() {
+					socket.emit("list", "Curved Greatswords");
+				});
+				$("#scythe-button").click(function() {
+					socket.emit("list", "Reapers");
+				});
+				$("#halberds-button").click(function() {
+					socket.emit("list", "Halberds");
+				});
+				$("#katana-button").click(function() {
+					socket.emit("list", "Katanas");
 				});
 			});
 		</script>
@@ -146,7 +193,7 @@
 			<button type="submit" id="submit-button">
 				Search
 			</button>
-			<button type="home" id="home-button">
+			<button id="home-button">
 				Home
 			</button>
 		</div>
@@ -213,7 +260,7 @@
 						</td>
 						<td>
 							<h2>Catalysts</h2>
-							<p>List all catalyst type weapons in the game.</p>
+							<p>List all sacred chime type weapons in the game.</p>
 						</td>
 					</tr>
 				</table>
@@ -266,6 +313,71 @@
 						<td>
 							<h2>Curved Greatswords</h2>
 							<p>List all curved greatsword type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="katana-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/uchigatana-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Katanas</h2>
+							<p>List all katana type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="scythe-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/friedes_great_scythe-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Scythes</h2>
+							<p>List all scythe type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="bow-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/longbow-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Bows</h2>
+							<p>List all bow type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="crossbow-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/avelyn-icon.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Crossbows</h2>
+							<p>List all crossbow type weapons in the game.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="item" id="halberds-button">
+				<table>
+					<tr>
+						<td>
+							<img src="img/weapons/crucifix_of_the_mad_king.png" width="128" height="200"/>
+						</td>
+						<td>
+							<h2>Halberds</h2>
+							<p>List all halberd type weapons in the game.</p>
 						</td>
 					</tr>
 				</table>
