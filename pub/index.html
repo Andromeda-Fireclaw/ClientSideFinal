@@ -13,7 +13,7 @@
 			body {
 				background-color: black;
 			}
-			
+
 			#background {
 				background: url("img/background.jpg");
 				background-size: cover;
@@ -64,7 +64,7 @@
 			#submit-button:hover {
 				color: white;
 			}
-			
+
 			#home-button {
 				background: rgba(0, 0, 0, 0.0);
 				color: rgb(160, 160, 160);
@@ -96,7 +96,7 @@
 				border-top: 2px solid black;
 				border-bottom: 2px solid black;
 			}
-			
+
 			.item h2 {
 				color: white;
 			}
@@ -121,7 +121,8 @@
 				$("#content").html("");
 				for (x of active_queries) {
 					if (!x) continue;
-					$("#content").append(buildDiv("/img/weapons/longsword-icon.png", x["Object Name"], x["Location"]));
+					//The name of the image path is in x["icon_Path"]
+					$("#content").append(buildDiv("/img/weapons/" + x["icon_Path"], x["Object Name"], x["Location"]));
 				}
 			};
 			socket.on("searchReturn", function(data) {
