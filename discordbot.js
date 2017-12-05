@@ -2,26 +2,11 @@
 //Try connection mongo to 35.24.106.170/DarkSoulsData. If we run this localhost just do localhost/DarkSoulsData.
 const Discord = require('discord.js');
 const Client = new Discord.Client();
-const mongoClient = require("mongodb").MongoClient;
-var express = require("express");
-var io = require('socket.io')(socketaddr);
-var socketaddr = "35.24.106.170:8080";
+var io = require("socket.io");
 var socket = io();
-io.on('connection',function(client){});
 
 Client.on("ready", ()=>{
 	console.log("ready!");
-});
-io.on("connection",function(socket){
-	
-	socket.on("searchReturn", function(data) {
-		active_queries.push(JSON.parse(data));
-		updateContent();
-	});
-	socket.on("listReturn", function(data) {
-		active_queries.push(JSON.parse(data));
-		updateContent();
-	});
 });
 
 Client.on("message", (message)=> {
