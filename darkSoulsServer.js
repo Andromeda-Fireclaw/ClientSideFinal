@@ -9,6 +9,15 @@ var server = http.Server(app);
 var socketIo = require("socket.io");
 var io = socketIo(server);
 
+function AddUpdatedField(object, strToReference) {  //
+    var string = strToReference[0].toLowerCase() + strToReference.slice(1);
+    string = string.replace(/ /g, "");
+    string = string.replace("'", "");
+    string += 'Icon.png';
+    object.icon_Path = string;
+    return object;
+}
+
 var searchForItem = function(db, query, callbackFunction) {
 	db.collection("weapons").find({"Object Name":query}, function(err, cursor) {
 		if (err) throw err;
@@ -42,8 +51,9 @@ io.on("connection", function(socket) {
 		mongoClient.connect("mongodb://localhost:27017/DarkSoulsData", function(err, db) {
 			if (err) throw err;
 			console.log("Connected to Mongo.");
-			searchForItem (db, regex, function(answer) {
-				console.log(answer);
+			searchForItem(db, regex, function (answer) {
+			    AddUpdatedField(answer, answer["Object Name"]);
+			    console.log(answer);
 				socket.emit("searchReturn", JSON.stringify(answer));
 			});
 		});	
@@ -52,7 +62,8 @@ io.on("connection", function(socket) {
 		mongoClient.connect("mongodb://localhost:27017/DarkSoulsData", function(err, db) {
 			if (err) throw err;
 			console.log("Connected to Mongo.");
-			listCategory (db, query, function(answer) {
+			listCategory(db, query, function (answer) {
+			    AddUpdatedField(answer, answer["Object Name"]);
 				console.log(answer);
 				socket.emit("listReturn", JSON.stringify(answer));
 			});
@@ -63,3 +74,4 @@ io.on("connection", function(socket) {
 server.listen(8080, function() {
 	console.log("Server started and ready for requests.");
 });
+
