@@ -9,6 +9,26 @@ var server = http.Server(app);
 var socketIo = require("socket.io");
 var io = socketIo(server);
 
+
+function sanitize(wordToSanitize) {
+    var scrubbingString = wordToSanitize;
+    var scrubbedString = "";
+    var badCharacters = /\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\.|\//g;
+    /*
+    while (scrubbingString.search(badCharacters)) {
+        var location = scrubbingString.search(badCharacters);
+        scrubbedString += scrubbingString.slice(0, (location));
+        scrubbedString += '\\';
+        scrubbingString = scrubbingString.slice((location), -1);
+        
+    }
+    
+    scrubbedString += scrubbingString;
+    */
+    scrubbedString = scrubbingString.replace(badCharacters, "");
+    return scrubbedString;
+}
+
 function AddUpdatedField(object, strToReference) {  //
     var string = strToReference[0].toLowerCase() + strToReference.slice(1);
     string = string.replace(/ /g, "");
@@ -18,20 +38,22 @@ function AddUpdatedField(object, strToReference) {  //
     return object;
 }
 
-var searchForItem = function(db, query, callbackFunction) {
-	db.collection("weapons").find({"Object Name":query}, function(err, cursor) {
-		if (err) throw err;
-		cursor.forEach(function(item) {
-			//console.log(item);
-			callbackFunction(item);
-		});
-	});
-};
+var searchForItem = function (db, query, callbackFunction) {
+    sanitizedQuery = sanitize(query);
+        db.collection("weapons").find({ "Object Name": sanitizedQuery }, function (err, cursor) {
+            if (err) throw err;
+            cursor.forEach(function (item) {
+                //console.log(item);
+                callbackFunction(item);
+            });
+        });
+    };
 
-var listCategory = function(db, query, callbackFunction) {
-	db.collection("weapons").find({"Sub Category":query}, function(err, cursor) {
+var listCategory = function (db, query, callbackFunction) {
+    sanitizedQuery = sanitize(query);
+	db.collection("weapons").find({"Sub Category":sanitizedQuery}, function(err, cursor) {
 		var result = [];
-		cursor.forEach(function(item) {
+		cursor.forEach(function(item) { 
 			//console.log(item);
 			callbackFunction(item);
 		});
